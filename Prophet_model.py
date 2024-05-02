@@ -11,7 +11,7 @@ import plotly.graph_objs as go
 input_company = input("Enter the comapny name : ")
 
 if (input_company == "AEP"):
-    df1 = pd.read_csv()"C:\Users\Mahendra\Downloads\Company_data\AEP_hourly.csv"
+    df1 = pd.read_csv("C:\Users\Mahendra\Downloads\Company_data\AEP_hourly.csv")
 elif (input_company == "COMED"):
     df1 = pd.read_csv(r"C:\Users\Mahendra\Downloads\Company_data\COMED_hourly.csv")
 elif (input_company == "DAYTON"):
